@@ -1,0 +1,119 @@
+---
+---
+
+$primary-color: #2c3e50;
+$accent-color: #3498db;
+$text-color: #333;
+$bg-color: #f8f9fa;
+$max-width: 900px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Microsoft YaHei", Arial, sans-serif;
+  line-height: 1.6;
+  color: $text-color;
+  background: $bg-color;
+}
+
+.site-header {
+  background: $primary-color;
+  padding: 1rem 0;
+
+  .main-nav {
+    max-width: $max-width;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+
+    .logo {
+      color: white;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+
+      a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+          color: $accent-color;
+        }
+      }
+    }
+  }
+}
+
+.page-content {
+  max-width: $max-width;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+}
+
+.post-title {
+  color: $primary-color;
+  margin-bottom: 1rem;
+}
+
+.post-meta {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.post-content {
+  h1, h2, h3 {
+    margin: 1.5rem 0 1rem;
+    color: $primary-color;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 0.6rem;
+    text-align: left;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 1rem 0;
+  }
+}
+
+.tag {
+  display: inline-block;
+  background: $accent-color;
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  margin-right: 0.5rem;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
