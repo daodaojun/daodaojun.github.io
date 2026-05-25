@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "我的第一篇 Jekyll 博客"
-date: 2026-05-11
+date: 2026-05-25
 categories: Jekyll
 tags: 博客 实验 GitHubPages
-author: 第X小组
+author: 第3小组
 ---
 
 # 我的第一篇 Jekyll 博客
